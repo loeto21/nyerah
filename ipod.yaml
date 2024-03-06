@@ -1,8 +1,8 @@
 ---
 apiVersion: apps/v1
-kind: Deployment
+kind: pod
 metadata:
-  name: apphone
+  name: ipod
 spec:
   replicas: 30
   selector:
@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: 432258001168.dkr.ecr.us-east-1.amazonaws.com/tensure:latest
+          image: 800436446811.dkr.ecr.us-east-1.amazonaws.com/tensure:latest
           ports:
             - containerPort: 8080
 
