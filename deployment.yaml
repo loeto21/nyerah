@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: 992382513265.dkr.ecr.us-east-2.amazonaws.com/kampret:latest
+          image: 992382513265.dkr.ecr.us-west-1.amazonaws.com/kampret:latest
           ports:
             - containerPort: 80
